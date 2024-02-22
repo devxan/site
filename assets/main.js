@@ -3222,7 +3222,7 @@
 						position: 'center',
 						motion: 'out',
 						speed: 2,
-						caption: 'A stylized river',
+						caption: 'A car driving on a wet highway with clouds and a bright reflection of sunlight on the ground',
 					},
 					{
 						src: 'assets/images/background-cd21823b.jpg',

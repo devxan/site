@@ -3300,3 +3300,29 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 		gap: 0.5625rem;
 	}
 }
+
+/* mnbnbxmbzxmncbzxc <- wtf is that... */
+
+#logo {
+	position: fixed !important;
+	z-index: 99;
+	top: 2.75rem;
+	left: 2.75rem;
+}
+	
+::selection {
+	color: #FCA4A4;
+	background: black;
+}
+	
+.biglink li, .biglink li a {
+	-webkit-transition: letter-spacing 250ms ease;
+	-moz-transition: letter-spacing 250ms ease;
+	-o-transition: letter-spacing 250ms ease;
+	transition: letter-spacing 250ms;
+}
+	
+.biglink li a:hover, .biglink li a:focus-visible {
+	letter-spacing: 1rem;
+	transition: letter-spacing 550ms ease;
+}

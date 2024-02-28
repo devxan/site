@@ -9,4 +9,4 @@ The reason it took so long to appear on GitHub: Cloudflare Pages and my GitHub a
 
 ## More tools and help I used to make this
 - [Darken color by percentage](https://mdigi.tools/darken-color/?percentage=75) for social buttons
-- [Kevin Powell](https://www.kevinpowell.co/)'s [Discord](https://discord.gg/9Rc6WNhNGJ) community 
+- [Kevin Powell](https://www.kevinpowell.co/)'s [Discord](https://discord.gg/9Rc6WNhNGJ) community for css animation on [keyboard navigation](https://discord.com/channels/436251713830125568/1045906337126699028) and putting things [in corners](https://discord.com/channels/436251713830125568/1029877005270909119).

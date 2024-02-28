@@ -2316,8 +2316,12 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	background-color: #032F23 !important;
 }
 
+#buttons05 .n02 svg {
+	fill: #3DDC84;
+}
+
 #buttons05 .n02:hover {
-	background-color: #404040 !important;
+	background-color: #0B3B21 !important;
 }
 
 #buttons07 .n01 svg {

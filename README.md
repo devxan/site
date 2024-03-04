@@ -1,5 +1,5 @@
 # [xan.lol](https://xan.lol) site
-Copyright Xan Surnamehere!! (besides some parts marked otherwise. soon a permissive license for the code? maybe a CC one)
+Copyright Xan Surnamehere!! (besides parts marked otherwise. soon a permissive license for the code? maybe a CC one)
 
 Originally hosted and primarily built with [Carrd.co](https://carrd.co), then exported when my subscription ran out. Repo was manually uploaded to [Cloudflare Pages](https://pages.cloudflare.com/), but I realized uploading it to a git server would be a lot smarter. (Also has ALL of Carrd's social icons from export? omg it's so developer friendly 🥰)
 
@@ -8,4 +8,5 @@ The reason it took so long to appear on GitHub: Cloudflare Pages and my GitHub a
 
 ## More tools and help I used to make this
 - [Darken color by percentage](https://mdigi.tools/darken-color/?percentage=75) for social buttons
-- [Kevin Powell](https://www.kevinpowell.co/)'s [Discord](https://discord.gg/9Rc6WNhNGJ) community for css animation on [keyboard navigation](https://discord.com/channels/436251713830125568/1045906337126699028) and putting things [in corners](https://discord.com/channels/436251713830125568/1029877005270909119).
+- [Kevin Powell](https://www.kevinpowell.co/)'s [Discord](https://discord.gg/9Rc6WNhNGJ) community for css animation on [keyboard navigation](https://discord.com/channels/436251713830125568/1045906337126699028) and putting things [in corners](https://discord.com/channels/436251713830125568/1029877005270909119)
+- [avif cli](https://github.com/lovell/avif-cli) (no thanks to online converters, they all suck!)

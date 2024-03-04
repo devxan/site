@@ -253,6 +253,10 @@
 				</div>
 			</div>
 		</div>
-		<script async src="assets/main.js"></script>
+		<script>
+			const umamitest = document.getElementById('homelinks');
+			umamitest.onclick = () => umami.track('Test tracked event');
+		</script>
+		<script src="assets/main.js"></script>
 	</body>
 </html>

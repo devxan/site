@@ -950,72 +950,56 @@
 						disableAutoScroll: true,
 						events: {
 							onopen: [
-								function() { 
-									gtag('config', 'G-8GDZWJT7J0', { 'page_path': '/' });
-								},
+								// nothing
 							],
 						},
 					},
 					'now': {
 						events: {
 							onopen: [
-								function() { 
-									gtag('config', 'G-8GDZWJT7J0', { 'page_path': '/#now' });
-								},
+								// nothing
 							],
 						},
 					},
 					'about': {
 						events: {
 							onopen: [
-								function() { 
-									gtag('config', 'G-8GDZWJT7J0', { 'page_path': '/#about' });
-								},
+								// nothing
 							],
 						},
 					},
 					'socials': {
 						events: {
 							onopen: [
-								function() { 
-									gtag('config', 'G-8GDZWJT7J0', { 'page_path': '/#socials' });
-								},
+								// nothing
 							],
 						},
 					},
 					'share': {
 						events: {
 							onopen: [
-								function() { 
-									gtag('config', 'G-8GDZWJT7J0', { 'page_path': '/#share' });
-								},
+								// nothing
 							],
 						},
 					},
 					'caps': {
 						events: {
 							onopen: [
-								function() { 
-									gtag('config', 'G-8GDZWJT7J0', { 'page_path': '/#caps' });
-								},
+								// nothing
 							],
 						},
 					},
 					'site': {
 						events: {
 							onopen: [
-								function() { 
-									gtag('config', 'G-8GDZWJT7J0', { 'page_path': '/#site' });
-								},
+								// nothing
 							],
 						},
 					},
 					'peek': {
 						events: {
 							onopen: [
-								function() { 
-									gtag('config', 'G-8GDZWJT7J0', { 'page_path': '/#peek' });
-								},
+								// nothing
 							],
 						},
 					},

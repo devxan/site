@@ -950,56 +950,56 @@
 						disableAutoScroll: true,
 						events: {
 							onopen: [
-								umami.track('Opened home');
+								function() { umami.track('Opened home'); },
 							],
 						},
 					},
 					'now': {
 						events: {
 							onopen: [
-								umami.track('Opened now');
+								function() { umami.track('Opened now'); },
 							],
 						},
 					},
 					'about': {
 						events: {
 							onopen: [
-								umami.track('Opened about');
+								function() { umami.track('Opened about'); },
 							],
 						},
 					},
 					'socials': {
 						events: {
 							onopen: [
-								umami.track('Opened socials');
+								function() { umami.track('Opened socials'); },
 							],
 						},
 					},
 					'share': {
 						events: {
 							onopen: [
-								umami.track('Opened share');
+								function() { umami.track('Opened share'); },
 							],
 						},
 					},
 					'caps': {
 						events: {
 							onopen: [
-								umami.track('Opened caps');
+								function() { umami.track('Opened caps'); },
 							],
 						},
 					},
 					'site': {
 						events: {
 							onopen: [
-								umami.track('Opened site');
+								function() { umami.track('Opened site'); },
 							],
 						},
 					},
 					'peek': {
 						events: {
 							onopen: [
-								umami.track('Opened peek');
+								function() { umami.track('Opened peek'); },
 							],
 						},
 					},

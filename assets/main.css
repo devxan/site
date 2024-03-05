@@ -31,6 +31,8 @@ body:before {
 }
 
 :root {
+	font-family: Inter, sans-serif;
+	font-feature-settings: 'liga' 1, 'calt' 1; /* Inter font fix for Chrome */
 	--background-height: 100vh;
 	--site-language-alignment: left;
 	--site-language-direction: ltr;
@@ -39,6 +41,10 @@ body:before {
 	--site-language-indent-right: 0;
 	--viewport-height: 100vh;
 }
+
+@supports (font-variation-settings: normal) {
+	:root { font-family: InterVariable, sans-serif; }
+  }
 
 html {
 	font-size: 18pt;
@@ -527,7 +533,6 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 
 #hometext {
 	color: #FFFFFF;
-	font-family: 'Inter', sans-serif;
 	font-size: 4em;
 	line-height: 1.5;
 	font-weight: 700;
@@ -548,7 +553,6 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 
 #text05 {
 	color: #FFFFFF;
-	font-family: 'Inter', sans-serif;
 	font-size: 1.5em;
 	line-height: 1.5;
 	font-weight: 400;
@@ -572,7 +576,6 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 
 h1.style2, h2.style2, h3.style2, p.style2 {
 	color: #FFFFFF;
-	font-family: 'Inter', sans-serif;
 	font-size: 1em;
 	line-height: 1.5;
 	font-weight: 100;
@@ -601,7 +604,6 @@ h1.style3:not(:last-child), h2.style3:not(:last-child), h3.style3:not(:last-chil
 h1.style3, h2.style3, h3.style3, p.style3 {
 	text-align: justify;
 	color: #FFFFFF;
-	font-family: 'Inter', sans-serif;
 	font-size: 1em;
 	line-height: 1.5;
 	font-weight: 400;
@@ -634,7 +636,6 @@ h1.style4:not(:last-child), h2.style4:not(:last-child), h3.style4:not(:last-chil
 h1.style4, h2.style4, h3.style4, p.style4 {
 	text-align: right;
 	color: #FFFFFF;
-	font-family: 'Inter', sans-serif;
 	font-size: 0.875em;
 	line-height: 1.5;
 	font-weight: 300;
@@ -662,7 +663,6 @@ h1.style6:not(:last-child), h2.style6:not(:last-child), h3.style6:not(:last-chil
 
 h1.style6, h2.style6, h3.style6, p.style6 {
 	color: #FFFFFF;
-	font-family: 'Inter', sans-serif;
 	font-size: 2em;
 	line-height: 1.5;
 	font-weight: 700;
@@ -694,7 +694,6 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 
 #text09 {
 	color: #FFFFFF;
-	font-family: 'Inter', sans-serif;
 	font-size: 7em;
 	line-height: 1.5;
 	font-weight: 900;
@@ -2075,7 +2074,6 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	flex-direction: column;
 	flex-wrap: nowrap;
 	text-transform: lowercase;
-	font-family: 'Inter', sans-serif;
 	letter-spacing: 0.1rem;
 	margin-right: -0.1rem;
 	font-size: 3.5em;
@@ -2101,7 +2099,6 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	flex-direction: row;
 	flex-wrap: wrap;
 	text-transform: lowercase;
-	font-family: 'Inter', sans-serif;
 	font-size: 4em;
 	font-weight: 700;
 }
@@ -2206,7 +2203,6 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	line-height: 2.5rem;
 	padding: 0 1.25rem;
 	vertical-align: middle;
-	font-family: 'Inter', sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 	border-radius: 0.25rem;

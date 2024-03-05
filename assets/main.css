@@ -2089,11 +2089,6 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	text-decoration: none;
 }
 
-#homelinks li a {
-	font-style: italic;
-	text-decoration: none;
-}
-
 .links.style1 {
 	gap: 1.25rem;
 	flex-direction: row;

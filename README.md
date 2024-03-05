@@ -10,3 +10,4 @@ The reason it took so long to appear on GitHub: Cloudflare Pages and my GitHub a
 - [Darken color by percentage](https://mdigi.tools/darken-color/?percentage=75) for social buttons
 - [Kevin Powell](https://www.kevinpowell.co/)'s [Discord](https://discord.gg/9Rc6WNhNGJ) community for css animation on [keyboard navigation](https://discord.com/channels/436251713830125568/1045906337126699028) and putting things [in corners](https://discord.com/channels/436251713830125568/1029877005270909119)
 - [avif cli](https://github.com/lovell/avif-cli) (no thanks to online converters, they all suck!)
+- [Reference for HTML arrow symbol](https://www.toptal.com/designers/htmlarrows/arrows/right-arrow/)

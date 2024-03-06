@@ -1131,8 +1131,8 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 
 #homefoot > .wrapper > .inner {
 	--gutters: 2rem;
-	--padding-horizontal: 3.5rem;
-	--padding-vertical: 1.5rem;
+	--padding-horizontal: 2.5rem;
+	--padding-vertical: 2rem;
 	padding: var(--padding-vertical) var(--padding-horizontal);
 }
 

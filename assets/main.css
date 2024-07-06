@@ -2274,12 +2274,12 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	background-color: #060B47 !important;
 }
 
-#buttons03 .n02 svg {
-	fill: #00ACEE;
+#buttons03 .n02 svg { /* fedi updates */
+	fill: #F1007E;
 }
 
 #buttons03 .n02:hover {
-	background-color: #00374D !important;
+	background-color: #3C001F !important;
 }
 
 #buttons04 .n01 svg {
@@ -2418,7 +2418,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	background-color: #41100C !important;
 }
 
-#buttons08 .n02 svg {
+#buttons08 .n02 svg { /* fedi */
 	fill: #F1007E;
 }
 

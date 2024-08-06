@@ -1,5 +1,4 @@
 # [xan.lol](https://xan.lol) site
-Copyright Xan Surnamehere!! (besides parts marked otherwise. soon a permissive license for the code? maybe a [CC](https://creativecommons.org/licenses/by-nc-sa/4.0/) one for the content)
 
 Originally hosted and primarily built with [Carrd.co](https://carrd.co), then exported when my subscription ran out. Repo was manually uploaded to [Cloudflare Pages](https://pages.cloudflare.com/), but I realized uploading it to a git server would be a lot smarter. (Also has ALL of Carrd's social icons from export? omg it's so developer friendly 🥰)
 
@@ -7,8 +6,13 @@ Motivation for finally updating it: the /now page hadn't been updated for months
 The reason it took so long to appear on GitHub: Cloudflare Pages and my GitHub account weren't correctly linked together.
 
 ## More tools and help I used to make this
+
 - [Darken color by percentage](https://mdigi.tools/darken-color/?percentage=75) for social buttons
 - [Kevin Powell](https://www.kevinpowell.co/)'s [Discord](https://discord.gg/9Rc6WNhNGJ) community for css animation on [keyboard navigation](https://discord.com/channels/436251713830125568/1045906337126699028) and putting things [in corners](https://discord.com/channels/436251713830125568/1029877005270909119)
 - [avif cli](https://github.com/lovell/avif-cli) (no thanks to online converters, they all suck!)
 - [Reference for HTML arrow symbol](https://www.toptal.com/designers/htmlarrows/arrows/right-arrow/)
 - [GoatCounter](https://www.goatcounter.com/) for web analytics
+
+## License
+
+This repository's content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license and the source code is licensed under [MPLv2](LICENSE).

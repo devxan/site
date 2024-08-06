@@ -15,4 +15,4 @@ The reason it took so long to appear on GitHub: Cloudflare Pages and my GitHub a
 
 ## License
 
-This repository's content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license and the source code is licensed under [MPLv2](LICENSE).
+This repository's content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license and the source code is licensed under [Mozilla Public License 2.0](LICENSE).

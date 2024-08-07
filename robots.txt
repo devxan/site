@@ -50,3 +50,10 @@ Disallow: /
 # Block Seekr
 User-agent: Seekr
 Disallow: /
+
+# Block Ai2 (Dolma)
+User-agent: AI2Bot
+Disallow: /
+
+User-agent: Ai2Bot-Dolma
+Disallow: /

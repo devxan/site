@@ -2283,11 +2283,11 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 }
 
 .button.github svg {
-	fill: #4183C4 !important;
+	fill: #FFFFFF !important;
 }
 
 .button.github:hover {
-	background-color: #12263A !important;
+	background-color: #262626 !important;
 }
 
 .button.telegram svg {

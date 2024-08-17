@@ -2165,75 +2165,6 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	text-decoration: none;
 }
 
-.buttons {
-	cursor: default;
-	display: flex;
-	justify-content: var(--flex-alignment);
-	letter-spacing: 0;
-	padding: 0;
-}
-
-.buttons li {
-	max-width: 100%;
-}
-
-.buttons li a {
-	align-items: center;
-	justify-content: center;
-	max-width: 100%;
-	text-align: center;
-	text-decoration: none;
-	vertical-align: middle;
-	white-space: nowrap;
-}
-
-.buttons.style1 {
-	gap: 0.75rem;
-	flex-direction: column;
-	flex-wrap: nowrap;
-}
-
-.buttons.style1 li a {
-	display: inline-flex;
-	width: 100vw;
-	height: 2.5rem;
-	line-height: 2.5rem;
-	padding: 0 1.25rem;
-	vertical-align: middle;
-	font-size: 1em;
-	font-weight: 400;
-	border-radius: 0.25rem;
-	justify-content: flex-start;
-	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-}
-
-.buttons.style1 li a svg {
-	display: block;
-	fill: #FFFFFF;
-	flex-grow: 0;
-	flex-shrink: 0;
-	height: 100%;
-	min-width: 16px;
-	width: 1.5em;
-	margin-left: -0.125em;
-	margin-right: calc(0.5em + 0rem);
-	transition: fill 0.25s ease;
-}
-
-.buttons.style1 li a .label {
-	direction: var(--site-language-direction);
-	overflow: hidden;
-	flex-grow: 1;
-	flex-shrink: 1;
-	text-align: right;
-	width: 100%;
-}
-
-.buttons.style1 .button {
-	background-color: #000000;
-	color: #FFFFFF;
-}
-
 .button.cashapp svg {
 	fill: #00D632 !important;
 }
@@ -2360,6 +2291,75 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 
 .button.activitypub:hover {
 	background-color: #3C001F !important;
+}
+
+.buttons {
+	cursor: default;
+	display: flex;
+	justify-content: var(--flex-alignment);
+	letter-spacing: 0;
+	padding: 0;
+}
+
+.buttons li {
+	max-width: 100%;
+}
+
+.buttons li a {
+	align-items: center;
+	justify-content: center;
+	max-width: 100%;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.buttons.style1 {
+	gap: 0.75rem;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.buttons.style1 li a {
+	display: inline-flex;
+	width: 100vw;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	padding: 0 1.25rem;
+	vertical-align: middle;
+	font-size: 1em;
+	font-weight: 400;
+	border-radius: 0.25rem;
+	justify-content: flex-start;
+	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.buttons.style1 li a svg {
+	display: block;
+	fill: #FFFFFF;
+	flex-grow: 0;
+	flex-shrink: 0;
+	height: 100%;
+	min-width: 16px;
+	width: 1.5em;
+	margin-left: -0.125em;
+	margin-right: calc(0.5em + 0rem);
+	transition: fill 0.25s ease;
+}
+
+.buttons.style1 li a .label {
+	direction: var(--site-language-direction);
+	overflow: hidden;
+	flex-grow: 1;
+	flex-shrink: 1;
+	text-align: right;
+	width: 100%;
+}
+
+.buttons.style1 .button {
+	background-color: #000000;
+	color: #FFFFFF;
 }
 
 .image {

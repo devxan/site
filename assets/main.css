@@ -2109,59 +2109,11 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	text-decoration: underline;
 }
 
-#links08 .n02 a {
+.style1.biglink.links a {
 	cursor: pointer;
 }
 
-#links08 li a {
-	text-decoration: none;
-}
-
-#links07 .n02 a {
-	cursor: pointer;
-}
-
-#links07 li a {
-	text-decoration: none;
-}
-
-#links04 .n02 a {
-	cursor: pointer;
-}
-
-#links04 li a {
-	text-decoration: none;
-}
-
-#links06 .n02 a {
-	cursor: pointer;
-}
-
-#links06 li a {
-	text-decoration: none;
-}
-
-#links03 .n02 a {
-	cursor: pointer;
-}
-
-#links03 li a {
-	text-decoration: none;
-}
-
-#links02 .n02 a {
-	cursor: pointer;
-}
-
-#links02 li a {
-	text-decoration: none;
-}
-
-#links05 .n02 a {
-	cursor: pointer;
-}
-
-#links05 li a {
+.style1.biglink.links li a {
 	text-decoration: none;
 }
 

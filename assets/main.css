@@ -2234,276 +2234,132 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	color: #FFFFFF;
 }
 
-#buttons09 .n01 svg {
-	fill: #00D632;
+.button.cashapp svg {
+	fill: #00D632 !important;
 }
 
-#buttons09 .n01:hover {
+.button.cashapp:hover {
 	background-color: #00350C !important;
 }
 
-#buttons09 .n02 svg {
-	fill: #EA4335;
+.button.buymeacoffee svg {
+	fill: #FED200 !important;
 }
 
-#buttons09 .n02:hover {
-	background-color: #410B07 !important;
-}
-
-#buttons10 .n01 svg {
-	fill: #FED200;
-}
-
-#buttons10 .n01:hover {
+.button.buymeacoffee:hover {
 	background-color: #3F3400 !important;
 }
 
-#buttons10 .n02 svg {
-	fill: #FED200;
+.button.matrix svg {
+	fill: #0DBD8B !important;
 }
 
-#buttons10 .n02:hover {
-	background-color: #3F3400 !important;
-}
-
-#buttons03 .n01 svg {
-	fill: #5865F2;
-}
-
-#buttons03 .n01:hover {
-	background-color: #060B47 !important;
-}
-
-#buttons03 .n02 svg { /* fedi updates */
-	fill: #F1007E;
-}
-
-#buttons03 .n02:hover {
-	background-color: #3C001F !important;
-}
-
-#buttons04 .n01 svg {
-	fill: #DB4437;
-}
-
-#buttons04 .n01:hover {
-	background-color: #41100C !important;
-}
-
-#buttons04 .n02 svg {
-	fill: #0DBD8B;
-}
-
-#buttons04 .n02:hover {
+.button.matrix:hover {
 	background-color: #032F23 !important;
 }
 
-#buttons05 .n01 svg {
-	fill: #0DBD8B;
+.button.phone svg {
+	fill: #3DDC84 !important;
 }
 
-#buttons05 .n01:hover {
-	background-color: #032F23 !important;
-}
-
-#buttons05 .n02 svg {
-	fill: #3DDC84;
-}
-
-#buttons05 .n02:hover {
+.button.phone:hover {
 	background-color: #0B3B21 !important;
 }
 
-#buttons07 .n01 svg {
-	fill: #5865F2;
+.button.discord svg {
+	fill: #5865F2 !important;
 }
 
-#buttons07 .n01:hover {
+.button.discord:hover {
 	background-color: #060B47 !important;
 }
 
-#buttons07 .n02 svg {
-	fill: #00ACEE;
+.button.twitter svg {
+	fill: #00ACEE !important;
 }
 
-#buttons07 .n02:hover {
+.button.twitter:hover {
 	background-color: #00374D !important;
 }
 
-#buttons07 .n03 svg {
-	fill: #4183C4;
+.button.github svg {
+	fill: #4183C4 !important;
 }
 
-#buttons07 .n03:hover {
+.button.github:hover {
 	background-color: #12263A !important;
 }
 
-#buttons07 .n04 svg {
-	fill: #0088CC;
+.button.telegram svg {
+	fill: #0088CC !important;
 }
 
-#buttons07 .n04:hover {
+.button.telegram:hover {
 	background-color: #00334D !important;
 }
 
-#buttons07 .n05 svg {
-	fill: #6366F1;
+.button.steam svg {
+	fill: #00ADEE !important;
 }
 
-#buttons07 .n05:hover {
-	background-color: #060846 !important;
-}
-
-#buttons07 .n06 svg {
-	fill: #00ADEE;
-}
-
-#buttons07 .n06:hover {
+.button.steam:hover {
 	background-color: #00384D !important;
 }
 
-#buttons11 .n01 svg {
-	fill: #FFFFFF;
+.button.wikipedia svg {
+	fill: #FFFFFF !important;
 }
 
-#buttons11 .n01:hover {
+.button.wikipedia:hover {
 	background-color: #262626 !important;
 }
 
-#buttons11 .n02 svg {
-	fill: #FF0000;
+.button.youtube svg {
+	fill: #FF0000 !important;
 }
 
-#buttons11 .n02:hover {
+.button.youtube:hover {
 	background-color: #4D0000 !important;
 }
 
-#buttons11 .n03 svg {
-	fill: #58CC02;
+.button.unsplash svg {
+	fill: #FFFFFF !important;
 }
 
-#buttons11 .n03:hover {
-	background-color: #163301 !important;
-}
-
-#buttons11 .n04 svg {
-	fill: #FFFFFF;
-}
-
-#buttons11 .n04:hover {
+.button.unsplash:hover {
 	background-color: #262626 !important;
 }
 
-#buttons11 .n05 svg {
-	fill: #D01F3C;
+.button.lastfm svg {
+	fill: #D01F3C !important;
 }
 
-#buttons11 .n05:hover {
+.button.lastfm:hover {
 	background-color: #34080F !important;
 }
 
-#buttons11 .n06 svg {
-	fill: #3A76F0;
+.button.signal svg {
+	fill: #3A76F0 !important;
 }
 
-#buttons11 .n06:hover {
+.button.signal:hover {
 	background-color: #051A45 !important;
 }
 
-#buttons08 .n01 svg {
-	fill: #DB4437;
+.button.email svg {
+	fill: #DB4437 !important;
 }
 
-#buttons08 .n01:hover {
+.button.email:hover {
 	background-color: #41100C !important;
 }
 
-#buttons08 .n02 svg { /* fedi */
-	fill: #F1007E;
+.button.activitypub svg { /* fedi */
+	fill: #F1007E !important;
 }
 
-#buttons08 .n02:hover {
+.button.activitypub:hover {
 	background-color: #3C001F !important;
-}
-
-#buttons01 .n01 svg {
-	fill: #1DB954;
-}
-
-#buttons01 .n01:hover {
-	background-color: #0A421E !important;
-}
-
-#buttons01 .n02 svg {
-	fill: #FF6154;
-}
-
-#buttons01 .n02:hover {
-	background-color: #550600 !important;
-}
-
-#buttons01 .n03 svg {
-	fill: #1ABCFE;
-}
-
-#buttons01 .n03:hover {
-	background-color: #003246 !important;
-}
-
-#buttons01 .n04 svg {
-	fill: #009208;
-}
-
-#buttons01 .n04:hover {
-	background-color: #002402 !important;
-}
-
-#buttons01 .n05 svg {
-	fill: #FF4500;
-}
-
-#buttons01 .n05:hover {
-	background-color: #4D1500 !important;
-}
-
-#buttons02 .n01 svg {
-	fill: #C71585;
-}
-
-#buttons02 .n01:hover {
-	background-color: #45072E !important;
-}
-
-#buttons02 .n02 svg {
-	fill: #107C10;
-}
-
-#buttons02 .n02:hover {
-	background-color: #094409 !important;
-}
-
-#buttons02 .n03 svg {
-	fill: #F3A63C;
-}
-
-#buttons02 .n03:hover {
-	background-color: #482C04 !important;
-}
-
-#buttons02 .n04 svg {
-	fill: #FFFFFF;
-}
-
-#buttons02 .n04:hover {
-	background-color: #262626 !important;
-}
-
-#buttons02 .n05 svg {
-	fill: #DB325C;
-}
-
-#buttons02 .n05:hover {
-	background-color: #410B19 !important;
 }
 
 .image {

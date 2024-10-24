@@ -2245,6 +2245,22 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	background-color: #3C001F !important;
 }
 
+.button.bluesky svg {
+	fill: #0A7AFF !important;
+}
+
+.button.bluesky:hover {
+	background-color: #001E42 !important;
+}
+
+.button.itchio svg {
+	fill: #FA5C5C !important;
+}
+
+.button.itchio:hover {
+	background-color: #530303 !important;
+}
+
 .buttons {
 	cursor: default;
 	display: flex;
@@ -2975,21 +2991,9 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 		--spacing: 0rem;
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
 	
 	.buttons.style1 li a {
 		max-width: 100%;

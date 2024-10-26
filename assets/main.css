@@ -2117,148 +2117,79 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	text-decoration: none;
 }
 
-.button.cashapp svg {
-	fill: #00D632 !important;
-}
-
-.button.cashapp:hover {
-	background-color: #00350C !important;
-}
-
-.button.buymeacoffee svg {
-	fill: #FED200 !important;
-}
-
-.button.buymeacoffee:hover {
-	background-color: #3F3400 !important;
-}
-
-.button.matrix svg {
-	fill: #0DBD8B !important;
-}
-
-.button.matrix:hover {
-	background-color: #032F23 !important;
-}
-
-.button.phone svg {
-	fill: #3DDC84 !important;
-}
-
-.button.phone:hover {
-	background-color: #0B3B21 !important;
-}
-
-.button.discord svg {
-	fill: #5865F2 !important;
-}
-
-.button.discord:hover {
-	background-color: #060B47 !important;
-}
-
-.button.twitter svg {
-	fill: #00ACEE !important;
-}
-
-.button.twitter:hover {
-	background-color: #00374D !important;
-}
-
-.button.github svg {
-	fill: #FFFFFF !important;
-}
-
-.button.github:hover {
-	background-color: #262626 !important;
-}
-
-.button.telegram svg {
-	fill: #0088CC !important;
-}
-
-.button.telegram:hover {
-	background-color: #00334D !important;
-}
-
-.button.steam svg {
-	fill: #00ADEE !important;
-}
-
-.button.steam:hover {
-	background-color: #00384D !important;
-}
-
-.button.wikipedia svg {
-	fill: #FFFFFF !important;
-}
-
-.button.wikipedia:hover {
-	background-color: #262626 !important;
-}
-
-.button.youtube svg {
-	fill: #FF0000 !important;
-}
-
-.button.youtube:hover {
-	background-color: #4D0000 !important;
-}
-
-.button.unsplash svg {
-	fill: #FFFFFF !important;
-}
-
-.button.unsplash:hover {
-	background-color: #262626 !important;
-}
-
-.button.lastfm svg {
-	fill: #D01F3C !important;
-}
-
-.button.lastfm:hover {
-	background-color: #34080F !important;
-}
-
-.button.signal svg {
-	fill: #3A76F0 !important;
-}
-
-.button.signal:hover {
-	background-color: #051A45 !important;
-}
-
-.button.email svg {
-	fill: #DB4437 !important;
-}
-
-.button.email:hover {
-	background-color: #41100C !important;
-}
-
-.button.activitypub svg { /* fedi */
-	fill: #F1007E !important;
-}
-
-.button.activitypub:hover {
-	background-color: #3C001F !important;
-}
-
-.button.bluesky svg {
-	fill: #0A7AFF !important;
-}
-
-.button.bluesky:hover {
-	background-color: #001E42 !important;
-}
-
-.button.itchio svg {
-	fill: #FA5C5C !important;
-}
-
-.button.itchio:hover {
-	background-color: #530303 !important;
+.button {
+	&.activitypub {
+		iconify-icon, svg {fill: #F1007E; !important} /* fill changes to color for iconify-icons */
+		&:hover {background-color: #3C001F !important;}
+	}
+	&.cashapp {
+		iconify-icon, svg {fill: #00D632 !important;}
+		&:hover {background-color: #00350C !important;}
+	}
+	&.buymeacoffee {
+		iconify-icon, svg {fill: #FED200 !important;}
+		&:hover {background-color: #3F3400 !important;}
+	}
+	&.matrix {
+		iconify-icon, svg {fill: #0DBD8B !important;}
+		&:hover {background-color: #032F23 !important;}
+	}
+	&.phone {
+		iconify-icon, svg {fill: #3DDC84 !important;}
+		&:hover {background-color: #0B3B21 !important;}
+	}
+	&.discord {
+		iconify-icon, svg {fill: #5865F2 !important;}
+		&:hover {background-color: #060B47 !important;}
+	}
+	&.twitter {
+		iconify-icon, svg {fill: #00ACEE !important;}
+		&:hover {background-color: #00374D !important;}
+	}
+	&.github {
+		iconify-icon, svg {fill: #FFFFFF !important;}
+		&:hover {background-color: #262626 !important;}
+	}
+	&.telegram {
+		iconify-icon, svg {fill: #0088CC !important;}
+		&:hover {background-color: #00334D !important;}
+	}
+	&.steam {
+		iconify-icon, svg {fill: #00ADEE !important;}
+		&:hover {background-color: #00384D !important;}
+	}
+	&.wikipedia {
+		iconify-icon, svg {fill: #FFFFFF !important;}
+		&:hover {background-color: #262626 !important;}
+	}
+	&.youtube {
+		iconify-icon, svg {fill: #FF0000 !important;}
+		&:hover {background-color: #4D0000 !important;}
+	}
+	&.unsplash {
+		iconify-icon, svg {fill: #FFFFFF !important;}
+		&:hover {background-color: #262626 !important;}
+	}
+	&.lastfm {
+		iconify-icon, svg {fill: #D01F3C !important;}
+		&:hover {background-color: #34080F !important;}
+	}
+	&.signal {
+		iconify-icon, svg {fill: #3A76F0 !important;}
+		&:hover {background-color: #051A45 !important;}
+	}
+	&.email {
+		iconify-icon, svg {fill: #DB4437 !important;}
+		&:hover {background-color: #41100C !important;}
+	}
+	&.bluesky {
+		iconify-icon, svg {fill: #0A7AFF !important;}
+		&:hover {background-color: #001E42 !important;}
+	}
+	&.itchio {
+		iconify-icon, svg {fill: #FA5C5C !important;}
+		&:hover {background-color: #530303 !important;}
+	}
 }
 
 .buttons {
@@ -2267,67 +2198,60 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	justify-content: var(--flex-alignment);
 	letter-spacing: 0;
 	padding: 0;
-}
-
-.buttons li {
-	max-width: 100%;
-}
-
-.buttons li a {
-	align-items: center;
-	justify-content: center;
-	max-width: 100%;
-	text-align: center;
-	text-decoration: none;
-	vertical-align: middle;
-	white-space: nowrap;
-}
-
-.buttons.style1 {
-	gap: 0.75rem;
-	flex-direction: column;
-	flex-wrap: nowrap;
-}
-
-.buttons.style1 li a {
-	display: inline-flex;
-	width: 100vw;
-	height: 2.5rem;
-	line-height: 2.5rem;
-	padding: 0 1.25rem;
-	vertical-align: middle;
-	font-size: 1em;
-	font-weight: 400;
-	border-radius: 0.25rem;
-	justify-content: flex-start;
-	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-}
-
-.buttons.style1 li a svg {
-	display: block;
-	fill: #FFFFFF;
-	flex-grow: 0;
-	flex-shrink: 0;
-	height: 100%;
-	min-width: 16px;
-	width: 1.5em;
-	margin-left: -0.125em;
-	margin-right: calc(0.5em + 0rem);
-	transition: fill 0.25s ease;
-}
-
-.buttons.style1 li a .label {
-	direction: var(--site-language-direction);
-	overflow: hidden;
-	flex-grow: 1;
-	flex-shrink: 1;
-	text-align: right;
-	width: 100%;
-}
-
-.buttons.style1 .button {
-	background-color: #000000;
-	color: #FFFFFF;
+	li {
+		max-width: 100%;
+		a {
+			align-items: center;
+			justify-content: center;
+			max-width: 100%;
+			text-align: center;
+			text-decoration: none;
+			vertical-align: middle;
+			white-space: nowrap;		
+		}
+	}
+	&.style1 {
+		gap: 0.75rem;
+		flex-direction: column;
+		flex-wrap: nowrap;	
+		li a {
+			display: inline-flex;
+			width: 100vw;
+			height: 2.5rem;
+			line-height: 2.5rem;
+			padding: 0 1.25rem;
+			vertical-align: middle;
+			font-size: 1em;
+			font-weight: 400;
+			border-radius: 0.25rem;
+			justify-content: flex-start;
+			transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+			svg, iconify-icon svg {
+				display: inline-block;
+				fill: #FFFFFF;
+				flex-grow: 0;
+				flex-shrink: 0;
+				height: 100%;
+				min-width: 16px;
+				width: 1.5em;
+				margin-left: -0.125em;
+				margin-right: calc(0.5em + 0rem);
+				transition: fill 0.25s ease;			
+			}
+			.label {
+				direction: var(--site-language-direction);
+				overflow: hidden;
+				flex-grow: 1;
+				flex-shrink: 1;
+				text-align: right;
+				width: 100%;
+			}
+		}
+		.button {
+			background-color: #000000;
+			color: #FFFFFF;
+		}
+	}
 }
 
 .image {
@@ -2335,37 +2259,34 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	line-height: 0;
 	max-width: 100%;
 	position: relative;
-}
-
-.image .frame {
-	-webkit-backface-visibility: hidden;
-	-webkit-transform: translate3d(0, 0, 0);
-	display: inline-block;
-	max-width: 100%;
-	overflow: hidden;
-	vertical-align: top;
-	width: 100%;
-}
-
-.image .frame img {
-	border-radius: 0 !important;
-	max-width: 100%;
-	vertical-align: top;
-	width: inherit;
-}
-
-.image.full .frame {
-	display: block;
-}
-
-.image.full:first-child .frame {
-	border-top-left-radius: inherit;
-	border-top-right-radius: inherit;
-}
-
-.image.full:last-child .frame {
-	border-bottom-left-radius: inherit;
-	border-bottom-right-radius: inherit;
+	.frame {
+		-webkit-backface-visibility: hidden;
+		-webkit-transform: translate3d(0, 0, 0);
+		display: inline-block;
+		max-width: 100%;
+		overflow: hidden;
+		vertical-align: top;
+		width: 100%;
+		img {
+			border-radius: 0 !important;
+			max-width: 100%;
+			vertical-align: top;
+			width: inherit;
+		}
+	}
+	&.full {
+		.frame {
+			display: block;
+		}
+		&:first-child .frame {
+			border-top-left-radius: inherit;
+			border-top-right-radius: inherit;
+		}
+		&:last-child .frame {
+			border-bottom-left-radius: inherit;
+			border-bottom-right-radius: inherit;
+		}
+	}
 }
 
 #image02:not(:first-child) {

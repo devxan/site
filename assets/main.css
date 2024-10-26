@@ -2119,7 +2119,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 
 .button {
 	&.activitypub {
-		iconify-icon, svg {fill: #F1007E; !important} /* fill changes to color for iconify-icons */
+		iconify-icon, svg {fill: #F1007E !important;} /* fill changes to color for iconify-icons */
 		&:hover {background-color: #3C001F !important;}
 	}
 	&.cashapp {

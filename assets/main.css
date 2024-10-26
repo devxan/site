@@ -2118,7 +2118,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 }
 
 .button {
-	&.github, &.wikipedia, &.unsplash {
+	&.github, &.wikipedia {
 		iconify-icon, svg {fill: #FFFFFF !important;}
 		&:hover {background-color: #262626 !important;}
 	}
@@ -2149,10 +2149,6 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	&.twitter {
 		iconify-icon, svg {fill: #00ACEE !important;}
 		&:hover {background-color: #00374D !important;}
-	}
-	&.telegram {
-		iconify-icon, svg {fill: #0088CC !important;}
-		&:hover {background-color: #00334D !important;}
 	}
 	&.steam {
 		iconify-icon, svg {fill: #00ADEE !important;}

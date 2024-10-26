@@ -2118,6 +2118,10 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 }
 
 .button {
+	&.github, &.wikipedia, &.unsplash {
+		iconify-icon, svg {fill: #FFFFFF !important;}
+		&:hover {background-color: #262626 !important;}
+	}
 	&.activitypub {
 		iconify-icon, svg {fill: #F1007E !important;} /* fill changes to color for iconify-icons */
 		&:hover {background-color: #3C001F !important;}
@@ -2146,10 +2150,6 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 		iconify-icon, svg {fill: #00ACEE !important;}
 		&:hover {background-color: #00374D !important;}
 	}
-	&.github {
-		iconify-icon, svg {fill: #FFFFFF !important;}
-		&:hover {background-color: #262626 !important;}
-	}
 	&.telegram {
 		iconify-icon, svg {fill: #0088CC !important;}
 		&:hover {background-color: #00334D !important;}
@@ -2158,17 +2158,9 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 		iconify-icon, svg {fill: #00ADEE !important;}
 		&:hover {background-color: #00384D !important;}
 	}
-	&.wikipedia {
-		iconify-icon, svg {fill: #FFFFFF !important;}
-		&:hover {background-color: #262626 !important;}
-	}
 	&.youtube {
 		iconify-icon, svg {fill: #FF0000 !important;}
 		&:hover {background-color: #4D0000 !important;}
-	}
-	&.unsplash {
-		iconify-icon, svg {fill: #FFFFFF !important;}
-		&:hover {background-color: #262626 !important;}
 	}
 	&.lastfm {
 		iconify-icon, svg {fill: #D01F3C !important;}

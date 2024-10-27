@@ -2119,63 +2119,63 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 
 .button {
 	&.github, &.wikipedia {
-		iconify-icon, svg {fill: #FFFFFF !important;}
+		& iconify-icon, svg {fill: #FFFFFF !important;}
 		&:hover {background-color: #262626 !important;}
 	}
 	&.activitypub {
-		iconify-icon, svg {fill: #F1007E !important;} /* fill changes to color for iconify-icons */
+		& iconify-icon, svg {fill: #F1007E !important;} /* fill changes to color for iconify-icons */
 		&:hover {background-color: #3C001F !important;}
 	}
 	&.cashapp {
-		iconify-icon, svg {fill: #00D632 !important;}
+		& iconify-icon, svg {fill: #00D632 !important;}
 		&:hover {background-color: #00350C !important;}
 	}
 	&.buymeacoffee {
-		iconify-icon, svg {fill: #FED200 !important;}
+		& iconify-icon, svg {fill: #FED200 !important;}
 		&:hover {background-color: #3F3400 !important;}
 	}
 	&.matrix {
-		iconify-icon, svg {fill: #0DBD8B !important;}
+		& iconify-icon, svg {fill: #0DBD8B !important;}
 		&:hover {background-color: #032F23 !important;}
 	}
 	&.phone {
-		iconify-icon, svg {fill: #3DDC84 !important;}
+		& iconify-icon, svg {fill: #3DDC84 !important;}
 		&:hover {background-color: #0B3B21 !important;}
 	}
 	&.discord {
-		iconify-icon, svg {fill: #5865F2 !important;}
+		& iconify-icon, svg {fill: #5865F2 !important;}
 		&:hover {background-color: #060B47 !important;}
 	}
 	&.twitter {
-		iconify-icon, svg {fill: #00ACEE !important;}
+		& iconify-icon, svg {fill: #00ACEE !important;}
 		&:hover {background-color: #00374D !important;}
 	}
 	&.steam {
-		iconify-icon, svg {fill: #00ADEE !important;}
+		& iconify-icon, svg {fill: #00ADEE !important;}
 		&:hover {background-color: #00384D !important;}
 	}
 	&.youtube {
-		iconify-icon, svg {fill: #FF0000 !important;}
+		& iconify-icon, svg {fill: #FF0000 !important;}
 		&:hover {background-color: #4D0000 !important;}
 	}
 	&.lastfm {
-		iconify-icon, svg {fill: #D01F3C !important;}
+		& iconify-icon, svg {fill: #D01F3C !important;}
 		&:hover {background-color: #34080F !important;}
 	}
 	&.signal {
-		iconify-icon, svg {fill: #3A76F0 !important;}
+		& iconify-icon, svg {fill: #3A76F0 !important;}
 		&:hover {background-color: #051A45 !important;}
 	}
 	&.email {
-		iconify-icon, svg {fill: #DB4437 !important;}
+		& iconify-icon, svg {fill: #DB4437 !important;}
 		&:hover {background-color: #41100C !important;}
 	}
 	&.bluesky {
-		iconify-icon, svg {fill: #0A7AFF !important;}
+		& iconify-icon, svg {fill: #0A7AFF !important;}
 		&:hover {background-color: #001E42 !important;}
 	}
 	&.itchio {
-		iconify-icon, svg {fill: #FA5C5C !important;}
+		& iconify-icon, svg {fill: #FA5C5C !important;}
 		&:hover {background-color: #530303 !important;}
 	}
 }
@@ -2186,9 +2186,9 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	justify-content: var(--flex-alignment);
 	letter-spacing: 0;
 	padding: 0;
-	li {
+	& li {
 		max-width: 100%;
-		a {
+		& a {
 			align-items: center;
 			justify-content: center;
 			max-width: 100%;
@@ -2202,7 +2202,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 		gap: 0.75rem;
 		flex-direction: column;
 		flex-wrap: nowrap;	
-		li a {
+		& li a {
 			display: inline-flex;
 			width: 100vw;
 			height: 2.5rem;
@@ -2214,7 +2214,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 			border-radius: 0.25rem;
 			justify-content: flex-start;
 			transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-			svg, iconify-icon svg {
+			& svg, iconify-icon svg {
 				display: inline-block;
 				fill: #FFFFFF;
 				flex-grow: 0;
@@ -2226,7 +2226,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 				margin-right: calc(0.5em + 0rem);
 				transition: fill 0.25s ease;			
 			}
-			.label {
+			& .label {
 				direction: var(--site-language-direction);
 				overflow: hidden;
 				flex-grow: 1;
@@ -2235,7 +2235,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 				width: 100%;
 			}
 		}
-		.button {
+		& .button {
 			background-color: #000000;
 			color: #FFFFFF;
 		}
@@ -2247,7 +2247,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	line-height: 0;
 	max-width: 100%;
 	position: relative;
-	.frame {
+	& .frame {
 		-webkit-backface-visibility: hidden;
 		-webkit-transform: translate3d(0, 0, 0);
 		display: inline-block;
@@ -2255,7 +2255,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 		overflow: hidden;
 		vertical-align: top;
 		width: 100%;
-		img {
+		& img {
 			border-radius: 0 !important;
 			max-width: 100%;
 			vertical-align: top;
@@ -2263,7 +2263,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 		}
 	}
 	&.full {
-		.frame {
+		& .frame {
 			display: block;
 		}
 		&:first-child .frame {

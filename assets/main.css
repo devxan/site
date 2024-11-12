@@ -561,7 +561,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #text05 a {
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 
 #text05 a:hover {
@@ -2326,7 +2326,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 }
 
 @media (max-width: 1024px) {
-	
+	/* nuttin */
 }
 
 @media (max-width: 980px) {

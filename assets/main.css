@@ -2138,9 +2138,9 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 		& iconify-icon, svg {fill: #0DBD8B !important;}
 		&:hover {background-color: #032F23 !important;}
 	}
-	&.phone {
-		& iconify-icon, svg {fill: #3DDC84 !important;}
-		&:hover {background-color: #0B3B21 !important;}
+	&.neocities {
+		& iconify-icon, svg {fill: #f59c32 !important;}
+		&:hover {background-color: #462803 !important;}
 	}
 	&.discord {
 		& iconify-icon, svg {fill: #5865F2 !important;}

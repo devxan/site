@@ -552,6 +552,10 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	margin-top: 1rem;
 }
 
+.webrings, .webrings a {
+	color: white;
+}
+
 
 #text05 {
 	color: #FFFFFF;
@@ -2070,6 +2074,12 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	display: block;
 }
 
+#homefoot {
+	& .wrapper, & .inner {
+		pointer-events: none;
+	}
+}
+
 #homelinks {
 	justify-content: flex-end;
 	gap: 0.5rem;
@@ -2082,9 +2092,16 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	font-weight: 500;
 }
 
+#homelinks li {
+	width: fit-content;
+	margin-left: auto;
+	pointer-events: auto;
+}
+
 #homelinks li a {
 	color: #FFFFFF;
 	text-decoration: underline;
+	display: inline !important;
 }
 
 #homelinks li a:hover {

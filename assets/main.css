@@ -85,7 +85,6 @@ spoiler-text {
 	-webkit-text-stroke: 0;
 	background-color: rgba(32,32,32,0.75);
 	text-shadow: none;
-	text-stroke: 0;
 	color: transparent;
 	cursor: pointer;
 	transition: color 0.1s ease-in-out;
@@ -2266,7 +2265,9 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	position: relative;
 	& .frame {
 		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
 		display: inline-block;
 		max-width: 100%;
 		overflow: hidden;

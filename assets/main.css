@@ -128,7 +128,7 @@ a[onclick]:not([href]) {
 	min-height: var(--viewport-height);
 	overflow: hidden;
 	position: relative;
-	z-index: 2;
+	z-index: 4;
 }
 
 #main {
@@ -148,7 +148,7 @@ a[onclick]:not([href]) {
 	max-width: 100%;
 	position: relative;
 	text-align: var(--alignment);
-	z-index: 1;
+	z-index: 2;
 	transition: opacity 1s ease-in-out 0s;
 }
 
@@ -161,7 +161,7 @@ a[onclick]:not([href]) {
 	max-width: 100%;
 	position: relative;
 	width: var(--width);
-	z-index: 1;
+	z-index: 2;
 	padding: var(--padding-vertical) var(--padding-horizontal);
 }
 
@@ -911,7 +911,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 2;
+	z-index: 4;
 	text-decoration: none;
 }
 
@@ -1268,7 +1268,7 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 	bottom: 0;
 	right: 0;
 	width: 100%;
-	z-index: 2;
+	z-index: 4;
 }
 
 #container05 {
@@ -3058,4 +3058,9 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 .biglink li a:hover, .biglink li a:focus-visible {
 	letter-spacing: 1rem;
 	transition: letter-spacing 550ms ease;
+}
+
+#flood {
+	z-index: 3 !important;
+	filter: brightness(0.5);
 }

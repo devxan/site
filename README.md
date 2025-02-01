@@ -12,6 +12,7 @@ The reason it took so long to appear on GitHub: Cloudflare Pages and my GitHub a
 - [avif cli](https://github.com/lovell/avif-cli) (no thanks to online converters, they all suck!)
 - [Reference for HTML arrow symbol](https://www.toptal.com/designers/htmlarrows/arrows/right-arrow/)
 - [Plausible CE](https://github.com/plausible/community-edition) for web analytics
+- [Icônes](https://icones.js.org/) for icons
 
 ## License
 

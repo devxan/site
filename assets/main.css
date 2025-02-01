@@ -2194,6 +2194,14 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 		& iconify-icon, svg {fill: #FA5C5C !important;}
 		&:hover {background-color: #530303 !important;}
 	}
+	&.nano {
+		& iconify-icon, svg {stroke: #4A90E2 !important;}
+		&:hover {background-color: #0A2341 !important;}
+	}
+	&.monero {
+		& iconify-icon, svg {stroke: #FF6600 !important;}
+		&:hover {background-color: #401A00 !important;}
+	}
 }
 
 .buttons {
@@ -3063,4 +3071,12 @@ h1.style6 span.p:nth-child(n + 2), h2.style6 span.p:nth-child(n + 2), h3.style6 
 #flood {
 	z-index: 3 !important;
 	filter: brightness(0.5);
+}
+
+#wrapper {
+	pointer-events: none;
+}
+
+.inner {
+	pointer-events: auto;
 }

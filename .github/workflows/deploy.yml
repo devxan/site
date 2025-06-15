@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Move files to subfolder
-        run: sudo mv / /nekoweb
+        run: mkdir /nekoweb && sudo mv / /nekoweb
         
       - name: deploy2nekoweb
         uses: indiefellas/deploy2nekoweb@v4

@@ -8,7 +8,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         
-      # no build step lol
+      - name: Move files to subfolder
+        run: sudo mv / /nekoweb
         
       - name: deploy2nekoweb
         uses: indiefellas/deploy2nekoweb@v4
@@ -16,4 +17,4 @@ jobs:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
           nekoweb-folder: 'xan'
-          directory: '/'
+          directory: 'nekoweb'

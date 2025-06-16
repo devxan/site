@@ -8,8 +8,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Move files to subfolder
-        run: mkdir nekoweb && mv !("nekoweb") nekoweb
+      - name: Create subfolder and move repo inside
+        run: | 
+          mkdir nekoweb
+          shopt -s extglob  # Enable extended pattern matching
+          mv !("nekoweb") nekoweb
         
       - name: deploy2nekoweb
         uses: indiefellas/deploy2nekoweb@v4
